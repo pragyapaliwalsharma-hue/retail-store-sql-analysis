@@ -20,6 +20,14 @@ This project uses SQL to analyze retail sales data and answer business questions
 - `sql_queries.sql` - SQL queries used for analysis
 - `screenshots/` - Query results screenshots
 
+## Key Insights
+- Calculated total retail revenue using SQL aggregate functions
+- Identified top-performing product categories
+- Analyzed highest spending customers
+- Compared revenue across customer genders
+- Calculated average customer age
+- Identified highest quantity product categories sold
+
 ## Query Results
 
 ### Total Revenue
@@ -40,9 +48,25 @@ This project uses SQL to analyze retail sales data and answer business questions
 ### Highest Quantity Products
 ![Highest Quantity Products](screenshots/highest_quality_product.png)
 
-## Key Insights
-Coming soon.
-
 ## How to Run
-Coming soon.
+
+1. Open MySQL Workbench
+
+2. Create a database
+
+```sql
+CREATE DATABASE retail_analysis;
+USE retail_analysis;
+```
+
+3. Import the retail sales CSV dataset into MySQL
+
+4. Run the queries from:
+
+```txt
+sql_queries.sql
+```
+
+5. Analyze the query outputs and business insights
+
 
